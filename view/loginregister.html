@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <!-- Nav bar section -->
+
+    <div class="nav">
+
+        <div>
+            <a href="./home.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./loginregister.html" id="displayuser">Login/Sign Up</a>
+        </div>
+       
+    </div>
+
+
+    <div class="formcontainer">
+
+      
+        <div class="registerform">
+
+            <h2>Sign UP</h2>
+
+            <form id="user">
+    
+                <input type="text" placeholder="Enter your Email-id" id="userid">
+                <input type="text" placeholder="Enter your Username" id="username">
+                <input type="date" id="regdate">
+               
+                <select id="roleselect">
+                    <option value="">Select</option>
+                    <option value="Explorer">Explorer</option>
+                    <option value="Admin">Admin</option>
+                </select>
+
+                <input type="text" placeholder="Enter location" id="userlocation">
+
+                <input type="password" placeholder="Enter your password" id="userpass1">
+                <input type="password" placeholder="Confirm your password" id="userpass2">
+
+        
+                <input type="submit" value="Register">
+                
+        
+        
+            </form>
+    
+        </div>
+
+       
+
+        <div class="loginform">
+
+            <h2>Login</h2>
+            <input type="text" placeholder="Enter your Username" id="loginusername">
+            <input type="password" placeholder="Enter your password" id="loginuserpass">
+
+            <button id="loginbtn">Login</button>
+
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+</html>
+
+<script src="./index.js"></script>
+
